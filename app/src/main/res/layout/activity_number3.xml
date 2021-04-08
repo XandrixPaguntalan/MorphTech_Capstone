@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".number3">
+
+    <Button
+        android:id="@+id/butt20"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:backgroundTint="#fff"
+        android:text="mumps"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView204"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView204"
+        app:layout_constraintTop_toTopOf="@+id/textView204" />
+
+    <Button
+        android:id="@+id/butt18"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#fff"
+        android:text="diphtheria"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView204"
+        app:layout_constraintStart_toStartOf="@+id/textView204"
+        app:layout_constraintTop_toTopOf="@+id/textView204" />
+
+    <Button
+        android:id="@+id/butt19"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:backgroundTint="#fff"
+        android:text="tetanus"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView204"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView204"
+        app:layout_constraintTop_toTopOf="@+id/textView204" />
+
+    <TextView
+        android:id="@+id/textView204"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="_______ is a viral infection that primarily affects saliva-producing (salivary) glands that are located near your ears. _______ can cause swelling in one or both of these glands."
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

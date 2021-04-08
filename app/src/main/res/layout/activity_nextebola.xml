@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".nextebola">
+
+    <TextView
+        android:id="@+id/textView193"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="- Wash your hands frequently"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+
+    <TextView
+        android:id="@+id/textView194"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="- Avoid bush meat"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+
+    <TextView
+        android:id="@+id/textView195"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="- Avoid contact with infected people"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+
+    <TextView
+        android:id="@+id/textView196"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="- Follow infection-control procedures"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+
+    <TextView
+        android:id="@+id/textView197"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="- Don't handle remains"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+
+    <TextView
+        android:id="@+id/textView191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to prevent Ebola?"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView192"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="- Avoid areas of known outbreaks"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView191"
+        app:layout_constraintTop_toTopOf="@+id/textView191" />
+</androidx.constraintlayout.widget.ConstraintLayout>

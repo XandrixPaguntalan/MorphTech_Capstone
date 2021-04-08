@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3939"
+    tools:context=".nextrotavirus">
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to prevent Rotavirus?"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="- Frequent hand-washing and disinfecting surfaces help, but nothing is a guarantee."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView169"
+        app:layout_constraintTop_toTopOf="@+id/textView169" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="- It is recommended to have your child vaccinated against rotavirus. This will make them less likely to get it. If they do get it, the symptoms will be less severe."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView169"
+        app:layout_constraintTop_toTopOf="@+id/textView169" />
+</androidx.constraintlayout.widget.ConstraintLayout>

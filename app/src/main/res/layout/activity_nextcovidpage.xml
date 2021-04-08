@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3939"
+    tools:context=".nextcovidpage">
+
+    <TextView
+        android:id="@+id/textView182"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:text="- Clean your hands often. Use soap and water, or an alcohol-based hand rub"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severe Symptoms:"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView188"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:text="- Stay home if you feel unwell"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView189"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="- If you have a fever, cough and difficulty breathing, seek medical attention"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView187"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:text="- Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView186"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="- Don’t touch your eyes, nose or mouth"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView183"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="- Maintain a safe distance from anyone who is coughing or sneezing"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView185"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:text="- Wear a mask when physical distancing is not possible"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="How to prevent COVID-19?"
+        android:textColor="#d67c31"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="- Shortness of Breath"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="- Loss of Appetite"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="- Confusion"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="- Persistent Pain or Pressure in the Chest"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="- High temperature (above 38 °C)"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

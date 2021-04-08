@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".apron">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="175dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/apron"
+        tools:srcCompat="@drawable/apron" />
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is a Medical Apron?"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="An outer garment covering the front of the body for protection of clothing during surgery or certain nursing procedures. Disposable plastic aprons form a vital component of most hospital workers’ personal protective equipment (PPE). Hospital personnel are often required to wear suitable, disposable plastic aprons because of the potential risk of exposure to a variety of hazards within the hospital environment."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView151"
+        app:layout_constraintTop_toTopOf="@+id/textView151" />
+</androidx.constraintlayout.widget.ConstraintLayout>

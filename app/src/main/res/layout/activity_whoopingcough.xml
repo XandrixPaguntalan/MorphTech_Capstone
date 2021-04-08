@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".whoopingcough">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="524dp"
+        android:backgroundTint="#fff"
+        android:text="MORE"
+        android:textColor="#d67c31"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="396dp"
+        android:text="- Low-grade fever (generally minimal throughout the course of the disease)"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint='#2e3341'
+        android:text="WHOOPING COUGH"
+        android:textColor='#d67c31'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="- Mild, occasional cough"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:text="- Apnea – a pause in breathing (in babies)"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Pertussis, also known as whooping cough, is a highly contagious respiratory disease. It is caused by the bacterium Bordetella pertussis. Pertussis is known for uncontrollable, violent coughing which often makes it hard to breathe. After cough fits, someone with pertussis often needs to take deep breaths, which result in a “whooping” sound. Pertussis can affect people of all ages, but can be very serious, even deadly, for babies less than a year old. "
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Early Symptoms:"
+        android:textColor="#d67c31"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="The disease usually starts with cold-like symptoms and maybe a mild cough or fever. In babies, the cough can be minimal or not even there. Babies may have a symptom known as “apnea.” Apnea is a pause in the child’s breathing pattern. Pertussis is most dangerous for babies. About half of babies younger than 1 year who get the disease need care in the hospital. Early symptoms can last for 1 to 2 weeks and usually include:"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:text="- Runny Nose"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3939"
+    tools:context=".nexttetanus">
+
+    <TextView
+        android:id="@+id/textView179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to prevent Tetanus?"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="- Vaccination and good wound care are important to help prevent tetanus infection. Doctors can also use a medicine to help prevent tetanus in cases where someone is seriously hurt and doesn’t have protection from tetanus vaccines."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView179"
+        app:layout_constraintTop_toTopOf="@+id/textView179" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".medicalmask">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/medicalmask" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Medical masks are a tool that can be used to prevent the spread of respiratory infection. Medical masks are a type of personal protective equipment used to prevent the spread of respiratory infections. These masks cover the mouth and nose of the wearer and, if worn properly, may be effective at helping prevent transmission of respiratory viruses and bacteria."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView139"
+        app:layout_constraintTop_toTopOf="@+id/textView139" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="108dp"
+        android:text="What is a Medical Mask?"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="76dp"
+        android:text="How to wear a Medical Mask?"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="If wearing a face mask is indicated, it is important to wash your hands with soap and water for at least 20 seconds prior to putting on the face mask. An alcohol-based sanitizer that contains at least 60% alcohol can also be used if soap and water are unavailable. After cleaning your hands, place the face mask over your nose and mouth. Make sure there are no gaps between the face mask and your face, and ensure a tight seal. Try to avoid touching the face mask when wearing it. If you do touch the face mask, wash your hands or use hand sanitizer again. When you are done using the face mask, remove it without touching the front of the face mask, and discard it into a closed bin. Wash your hands again after discarding the face mask."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView139"
+        app:layout_constraintTop_toTopOf="@+id/textView139" />
+</androidx.constraintlayout.widget.ConstraintLayout>

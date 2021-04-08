@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".number5">
+
+    <Button
+        android:id="@+id/butt25"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:backgroundTint="#fff"
+        android:text="ignore and stay where you are"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:layout_constraintTop_toTopOf="@+id/textView206" />
+
+    <Button
+        android:id="@+id/butt24"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#fff"
+        android:text="move 6-feet away"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:layout_constraintTop_toTopOf="@+id/textView206" />
+
+    <TextView
+        android:id="@+id/textView206"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="You are tasked by your mother to buy food supplies. While waiting for a ride, someone stood close to you and started coughing. What would you do?"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

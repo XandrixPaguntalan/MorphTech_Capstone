@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".number7">
+
+    <Button
+        android:id="@+id/butt29"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#fff"
+        android:text="Bury the body on your own"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView208"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView208"
+        app:layout_constraintTop_toTopOf="@+id/textView208" />
+
+    <Button
+        android:id="@+id/butt30"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="#fff"
+        android:text="Call specially organized and trained teams who will bury the body with appropriate safety equipment"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView208"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView208"
+        app:layout_constraintTop_toTopOf="@+id/textView208" />
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="The body of your family member who died because of Ebola Virus is still inside your house. What would you do?"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

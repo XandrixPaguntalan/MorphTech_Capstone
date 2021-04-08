@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3939"
+    tools:context=".nextnextwhoopingcough">
+
+    <TextView
+        android:id="@+id/textView198"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to prevent Whooping Cough?"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView199"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="- The best way to prevent pertussis (whooping cough) among babies, children, teens, pregnant women, and adults is to get vaccinated. Also, keep babies and other people at high risk for pertussis complications away from infected people."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView198"
+        app:layout_constraintTop_toTopOf="@+id/textView198" />
+</androidx.constraintlayout.widget.ConstraintLayout>

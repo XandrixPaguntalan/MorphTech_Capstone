@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".nextwhoopingcough">
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Later-stage Symptoms:"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="After 1 to 2 weeks and as the disease progresses, the traditional symptoms of pertussis may appear and include:"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="- Paroxysms (fits) of many, rapid coughs followed by a high-pitched “whoop” sound"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="@+id/textView132" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="- Vomiting (throwing up) during or after coughing fits"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="@+id/textView132" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="- Exhaustion (very tired) after coughing fits"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="@+id/textView132" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:text="Pertussis can cause violent and rapid coughing, over and over, until the air is gone from your lungs. When there is no more air in the lungs, you are forced to inhale with a loud “whooping” sound. This extreme coughing can cause you to throw up and be very tired. Although you are often exhausted after a coughing fit, you usually appear fairly well in-between. Coughing fits generally become more common and bad as the illness continues, and can occur more often at night. The coughing fits can go on for up to 10 weeks or more. In China, pertussis is known as the “100 day cough.” The “whoop” is often not there if you have milder (less serious) disease. The infection is generally milder in teens and adults, especially those who have gotten the pertussis vaccine."
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="@+id/textView132" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="524dp"
+        android:backgroundTint='#fff'
+        android:text="MORE"
+        android:textColor="#d67c31"
+        app:layout_constraintStart_toStartOf="@+id/textView132"
+        app:layout_constraintTop_toTopOf="@+id/textView132" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#3c3939'
+    tools:context=".number6">
+
+    <Button
+        android:id="@+id/butt26"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="#fff"
+        android:text="ebola"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:layout_constraintTop_toTopOf="@+id/textView207" />
+
+    <Button
+        android:id="@+id/butt28"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:backgroundTint="#fff"
+        android:text="flu"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:layout_constraintTop_toTopOf="@+id/textView207" />
+
+    <Button
+        android:id="@+id/butt27"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#fff"
+        android:text="covid-19"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:layout_constraintTop_toTopOf="@+id/textView207" />
+
+    <TextView
+        android:id="@+id/textView207"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="_______ is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to death."
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

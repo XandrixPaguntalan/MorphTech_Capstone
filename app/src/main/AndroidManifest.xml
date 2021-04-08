@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mcm.edu.ph.vvapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cmpnylogo"
+        android:label="VIRTUAL VIRUS"
+        android:roundIcon="@drawable/cmpnylogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VVapp">
+        <activity
+            android:name=".wrong"
+            android:label="WRONG" />
+        <activity
+            android:name=".correct"
+            android:label="CORRECT" />
+        <activity
+            android:name=".number9"
+            android:label="NUMBER 9" />
+        <activity
+            android:name=".number8"
+            android:label="NUMBER 8" />
+        <activity
+            android:name=".number7"
+            android:label="NUMBER 7" />
+        <activity
+            android:name=".number6"
+            android:label="NUMBER 6" />
+        <activity
+            android:name=".number5"
+            android:label="NUMBER 5" />
+        <activity
+            android:name=".number4"
+            android:label="NUMBER 4" />
+        <activity
+            android:name=".number3"
+            android:label="NUMBER 3" />
+        <activity
+            android:name=".number2"
+            android:label="NUMBER 2" />
+        <activity
+            android:name=".number1"
+            android:label="NUMBER 1" />
+        <activity
+            android:name=".nextnextwhoopingcough"
+            android:label="WHOOPING COUGH (PERTUSIS)" />
+        <activity
+            android:name=".nextebola"
+            android:label="EBOLA" />
+        <activity
+            android:name=".nextmumps"
+            android:label="MUMPS" />
+        <activity
+            android:name=".nexttetanus"
+            android:label="TETANUS" />
+        <activity
+            android:name=".nextflu"
+            android:label="FLU (INFLUENZA)" />
+        <activity
+            android:name=".nextrotavirus"
+            android:label="ROTAVIRUS" />
+        <activity
+            android:name=".nextnorovirus"
+            android:label="NOROVIRUS" />
+        <activity
+            android:name=".nextdiphtheria"
+            android:label="DIPHTHERIA" />
+        <activity
+            android:name=".nextgown"
+            android:label="GOWN" />
+        <activity
+            android:name=".nexthiv"
+            android:label="HIV" />
+        <activity
+            android:name=".nextwhoopingcough"
+            android:label="WHOOPING COUGH (PERTUSIS)" />
+        <activity
+            android:name=".nextcovidpage"
+            android:label="COVID-19" />
+        <activity
+            android:name=".faceshield"
+            android:label="FACE SHIELD" />
+        <activity
+            android:name=".apron"
+            android:label="APRON" />
+        <activity
+            android:name=".goggles"
+            android:label="GOGGLES" />
+        <activity
+            android:name=".gloves"
+            android:label="GLOVES" />
+        <activity
+            android:name=".gown"
+            android:label="GOWN" />
+        <activity
+            android:name=".medicalmask"
+            android:label="MEDICAL MASK" />
+        <activity
+            android:name=".whoopingcough"
+            android:label="WHOOPING COUGH (PERTUSIS)" />
+        <activity
+            android:name=".ebola"
+            android:label="EBOLA" />
+        <activity
+            android:name=".mumps"
+            android:label="MUMPS" />
+        <activity
+            android:name=".covid"
+            android:label="COVID-19" />
+        <activity
+            android:name=".diphtheria"
+            android:label="DIPHTHERIA" />
+        <activity
+            android:name=".flu"
+            android:label="FLU (INFLUENZA)" />
+        <activity
+            android:name=".rotavirus"
+            android:label="ROTAVIRUS" />
+        <activity
+            android:name=".norovirus"
+            android:label="NOROVIRUS" />
+        <activity
+            android:name=".tetanus"
+            android:label="TETANUS" />
+        <activity
+            android:name=".hiv"
+            android:label="HIV" />
+        <activity
+            android:name=".TestYourKnowledge"
+            android:label="TEST YOUR KNOWLEDGE" />
+        <activity
+            android:name=".listofppe"
+            android:label="LIST OF PPE" />
+        <activity
+            android:name=".listofvv"
+            android:label="LIST OF VIRAL DISEASES" />
+        <activity
+            android:name=".MainActivity"
+            android:label="VIRTUAL VIRUS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
